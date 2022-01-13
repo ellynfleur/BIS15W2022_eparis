@@ -104,6 +104,12 @@ which.max(sleep$sleep_total)
 sleepiest_animal <- sleep$name[43]
 sleepiest_animal
 ```
+```{r}
+max(sleep$sleep_rem)
+which.max(sleep$sleep_rem)
+rem_animal <- sleep$name[which.max(sleep$sleep_rem)]
+rem_animal
+```
 
 
 
