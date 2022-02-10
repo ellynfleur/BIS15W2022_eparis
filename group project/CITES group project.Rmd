@@ -1,0 +1,21 @@
+---
+title: "Group Project (CITES)- cleanup"
+author: "Ellyn Paris"
+date: "2/9/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+cites <- readr::read_csv("CITES.csv")
+```
+```{r}
+janitor::clean_names(cites)
+```
+```{r}
+naniar::miss
+```
+
