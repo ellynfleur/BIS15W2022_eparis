@@ -1,0 +1,15 @@
+---
+title: "Group Porject- Indian Food"
+author: "Ellyn Paris"
+date: "2/10/2022"
+output: html_document
+---
+```{r}
+indian_food <- readr::read_csv("indian_food.csv")
+```
+```{r}
+glimpse(indian_food)
+```
+## NAs treated as "-1"
+
+
